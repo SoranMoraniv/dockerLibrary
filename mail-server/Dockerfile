@@ -5,4 +5,4 @@ MAINTAINER Hauke Mettendorf
 # Just add exposed mountpoints
 VOLUME ["/tmp/spamassassin", "/tmp/postfix", "/ssl"]
 
-PORTS 25 143 587 993
+PORT 25 143 587 993
